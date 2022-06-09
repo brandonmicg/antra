@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-img-container{
+    background: url('images/cityscape.jpg') no-repeat center;
+    background-size: cover;
+    background-position: 80%;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.header-img-text{
+    color: white;
+    position: absolute;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px #000;
+    bottom: 10%;
+    right: 20%;
+}
+
+.header-links-container{
+    background-image: linear-gradient(rgb(224, 224, 224), rgb(184, 184, 184));
+}
+
+.header-links-container ul{
+    display: flex;
+    list-style: none;
+}
+
+.header-links-container ul li{
+    padding: 10px 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.header-links-container ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul .home{
+    background-color: rgba(128, 128, 128, 0.527);
+}
+
+li a{
+    color: rgb(78, 78, 78);
+}
+
+.home>a{
+    color: white;
+}
+
+.header-links-container ul li a:active{
+    color: white;
+}
+
+.body-container{
+    padding: 30px 60px;
+    width: 70%;
+    display: inline-block;
+}
+
+.welcome-container, .products-container{
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.welcome-container h1, .products-container h1, .news-container h1, .messages-container h1{
+    color: rgb(156, 218, 64);
+    margin-bottom: 20px;
+}
+
+.card{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.card .img-desc h3{
+    margin-bottom: 15px;
+}
+
+aside{
+    float: right;
+    padding: 30px 60px;
+    margin-right: 30px;
+    width: 15%;
+}
+
+.news-container, .messages-container{
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.news-container{
+    border: 4px solid rgba(207, 207, 207, 0.384);
+    background-color: rgba(236, 236, 236, 0.74);
+}
+
+.messages-container{
+    border: 4px solid rgba(233, 233, 233, 0.582);
+}
+
+.message-content{
+    margin-bottom: 15px;
+}
+
+.aside-content a{
+    color: rgb(156, 218, 64);
+}
+
+.aside-content{
+    margin-bottom: 15px;
+}
+
+footer{
+    background-image: linear-gradient(rgb(169, 235, 72), rgb(143, 199, 59));
+    padding: 50px 20%;
+    border-top: 1px solid rgb(134, 168, 83);
+}

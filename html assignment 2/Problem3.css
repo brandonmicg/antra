@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-header img{
+    margin: 0px 10px;
+    width: 170px;
+    height: 170px;
+}
+
+.header-bg{
+    background-color: cornflowerblue;
+    padding: 25px;
+}
+
+.header-bg button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+    margin-left: 90%;
+
+}
+
+.container-body{
+    padding: 30px 40px;
+    background-color: rgb(232, 232, 232);
+}
+
+.container-body h2{
+    color: rgb(47, 47, 158);
+    margin-bottom: 20px;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.479);
+    padding: 15px;
+    width: 25%;
+}
+
+.card h3{
+    color: rgb(1, 1, 88);
+    margin-bottom: 10px;
+}
+
+.card .date{
+    font-size: 16px;
+    margin-left: 80%;
+    margin-bottom: 10px;
+}
+
+.card h5{
+    font-size: 14px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.695);
+    margin-bottom: 25px;
+}
+
+.card-image-dsc{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.card-image-dsc img{
+    display: block;
+    max-width: 100%;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.card .tags{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.pagination{
+    margin-top: 40px;
+}
+
+.pagination ul{
+    display: flex;
+    list-style: none;
+}
+
+.pagination ul li{
+    margin: 2px;
+    background-color:cornflowerblue;
+    padding: 2px 6px;
+}
+
+.pagination ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 100;
+}

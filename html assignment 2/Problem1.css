@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+header{
+    background-color: rgb(55, 55, 104);
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+.logo{
+    display: inline;
+}
+
+.logo a img{
+    width: 10%;
+    height: 10%;
+}
+
+.menu-bar{
+    display: inline;
+    position: relative;
+    float: right;
+    top: 100px;
+
+}
+
+.menu-bar ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu-bar ul li{
+    font-size: 15px;
+    width: auto;
+    margin: 20px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(55, 55, 104);
+    margin: 0px;
+    width: 100px;
+}
+
+.menu-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin-top: 5px;
+    width: 100px;
+}
+
+.sub-menu ul li:hover{
+    background-color: rgb(110, 110, 185);
+}
+
+.container{
+    position: relative;
+    float: right;
+    display: flex;
+    top: 40px;
+    left: 860px;
+}
+
+.user-drop{
+    margin: 10px;
+    padding-top: 2px;
+}
+
+.user-drop:hover{
+    cursor: pointer;
+}
+
+.fa-caret-down{
+    float: right;
+    font-size: 10px;
+    padding-top: 1px;
+    margin: 2px;
+}
+
+.sub-user-menu ul li a{
+    text-decoration: none;
+}
+
+.sub-user-menu{
+    display: none;
+}
+
+.user-drop:hover .sub-user-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(55, 55, 104);
+}
+
+.sub-user-menu ul{
+    display: block;
+    margin: 10px 4px;
+    padding-right: 3px;
+}
+
+.sub-user-menu ul li{
+    width: 40px;
+    padding: 3px;
+}
+
+.sub-user-menu ul li:hover{
+    background-color: rgb(110, 110, 185);
+}
+
+.notifications p{
+    float: left;
+}
+
+.fa-bell{
+    margin: 8px 15px;
+}
+
+.fa-bell p{
+    font-size: 10px;
+    margin: 2px;
+}
+
+.search-box{
+    margin-top: 5px;
+}
+
+.search-box input{
+    box-sizing: border-box;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.search-box button{
+    display: inline;
+    position: relative;
+    box-sizing: border-box;
+    left: -34px;
+    top: -1px;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 4px;
+    background-color: rgb(245, 244, 244);
+}
+
+.fa-magnifying-glass{
+    color: black;
+}
